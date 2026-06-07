@@ -233,7 +233,7 @@ Ejemplo de la notificación en Telegram donde el administrador visualiza las mé
 
 ## Autora
 
-* **Paula Navarro** - [GitHub] enlace modificado a dip (https://github.com/TuUsuarioDeGitHub)
+* **Paula Navarro** - [GitHub] enlace modificado a deepwiki ([https://github.com/TuUsuarioDeGitHu](https://deepwiki.com/pau091/proyecto_n8n)b)
 
 ## Ayudas a compañeros
 La estudiante le colaboro a algunos de sus compañeros como Juan Jose y Daniel Mayorga quienes se mostraron interesados en su proyecto y les pidio ayuda para poder realizar sus proyectos con ia 
