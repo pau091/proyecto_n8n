@@ -93,6 +93,13 @@ En esta sección, se guardan los registros de los chats que tuvo el chatbot con 
 
 > https://ibb.co/0yf5DCBK
 
+- CIERRE
+- En esta hoja se registran los horarios en los que la tienda esta fuera de servicio cuando el usuario quiere realizar un pedido entre las 8am - 5pm
+
+> https://ibb.co/d4wW0k9K   - se le agrego la herramienta horarios y info_horarios
+> https://ibb.co/dJwGqkR9   - Hoja nueva en el Google Sheet
+> https://ibb.co/kgLFyDWG   - Mensaje en Telegram
+
 ### Flujo del Usuario en Telegram
 Aquí se observa cómo el usuario interactúa de manera conversacional, selecciona su menú y recibe las actualizaciones automáticas de estado.
 
@@ -210,6 +217,13 @@ Eres un asistente virtual inteligente y un enrutador de flujos encargado de gest
 - Respeta rigurosamente los paréntesis `()` y las comas en el formato de `detalles_pedido`.
 - Es obligatorio incluir la nota recordatoria del uso de `/editar lo-que-va-a-editar` cada vez que se listen datos del usuario para su revisión o se despliegue el menú.
 - Mantén un tono servicial, profesional y conciso en español.
+
+- REGLA DE HORARIO:
+La cafetería está CERRADA desde las 07:00 hasta las 17:00.
+Si el usuario en telegram pregunta por el horario o intenta pedir algo fuera de la hora actual que está entre 07:00am y 17:00pm (incluyendo estos horarios), debes responderle amablemente diciendo que la cafetería está cerrada con el siguiente mensaje: 🌙 Cafetería Cerrada. Nuestro horario es de Lunes a Viernes, 8am a 5pm. ¡Te esperamos mañana!.
+-El usuario tendra acceso aun al menu con la opción /menu, sin embargo se le enviara nuevamente el mensaje del cierre de la cafeteria
+ y que volverá a abrir a las 8:00 a.m.
+Si está fuera de ese horario, atiende normalmente al usuario.
 
 ### Prompt de la herramienta de agente de ia encargado de automatizar el apartado de cocina.
 
